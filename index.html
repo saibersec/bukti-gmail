@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Foto</title>
+    <style>
+        /* Menghilangkan margin bawaan dan membuat latar belakang hitam/sesuai keinginan */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #000; /* Mengubah warna latar belakang jadi hitam */
+            height: 100vh;
+            display: flex;
+            justify-content: center; /* Mengetengahkan foto secara horizontal */
+            align-items: center;     /* Mengetengahkan foto secara vertikal */
+            overflow: hidden;        /* Menghilangkan scrollbar */
+        }
+
+        img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;     /* Memastikan foto proporsional & tidak terpotong */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Ganti "foto-kamu.jpg" dengan nama/URL foto kamu -->
+    <img src="bukti gmail.jpeg" alt="Foto Utama">
+
+</body>
+</html>
